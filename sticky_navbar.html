@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+
+            position: sticky;
+            top: 0;
+        }
+        ul{
+            background-color: aquamarine;
+            /* height: 10vh; */
+            width: 100vw;
+            text-align: center;
+        }
+        li{
+            display: inline-block;
+            /* margin: 10px;
+            padding: 10px; */
+            font-size: 2vw;
+        }
+        .red{
+            min-height: 2333px;
+        }
+        .green{
+            position: sticky;
+            top: 92vh;
+            background-color: red;
+            text-align: center;
+            font-size: 2vw;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="green">
+        About Us &copy;
+    </div>
+    <div class="red">
+
+    </div>
+</body>
+</html>
