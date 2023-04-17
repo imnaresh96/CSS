@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+            display: inline;
+            margin: 10px;
+        }
+        header{
+            background-color: brown;
+            color: black;
+            height: 5vh;
+        }
+        ul{
+            padding: 5px;
+        }
+        .left{
+            float: left;
+            height: 80vh;
+            width: 40vw;
+            background-color: aqua;
+        }
+        .right{
+            float: right;
+            height: 80vh;
+            width: 40vw;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti cumque dignissimos nam nihil accusantium similique tempore quas nostrum id consequatur? Enim eum nisi, similique assumenda soluta autem facilis repudiandae eligendi.</div>
+        <div class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consectetur iusto amet ex nisi ipsa omnis eveniet, in architecto quis facilis obcaecati velit ullam porro ratione libero nulla odit blanditiis distinctio, iste optio? Officiis consectetur, esse sit ad architecto odit!</div>
+    </div>
+</body>
+</html>
